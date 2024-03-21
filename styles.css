@@ -1,0 +1,34 @@
+.race-track {
+    position: relative;
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+.car {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    top: 40px;
+}
+
+#car1 { left: 10px; }
+#car2 { left: 10px; top: 70px; background-color: red; }
+#car3 { left: 10px; top: 100px; background-color: green; }
+#car4 { left: 10px; top: 130px; background-color: yellow; }
+
+.finish-line {
+    position: absolute;
+    width: 5px;
+    height: 200px;
+    background-color: black;
+    top: 0;
+    right: 0;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+}
